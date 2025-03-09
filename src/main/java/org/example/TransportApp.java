@@ -15,21 +15,21 @@ public class TransportApp {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
         System.out.println("Enter the latitude range!");
-        System.out.println("From:");
+        System.out.print("From:");
         double fromLat = scanner.nextDouble();
-        System.out.println("To:");
+        System.out.print("To:");
         double toLat = scanner.nextDouble();
 
         System.out.println("Enter the longitude range!");
-        System.out.println("From:");
+        System.out.print("From:");
         double fromLon = scanner.nextDouble();
-        System.out.println("To:");
+        System.out.print("To:");
         double toLon = scanner.nextDouble();
 
         System.out.println("Enter your location's latitude!");
-        System.out.println("From:");
+        System.out.print("From:");
         double userLat = scanner.nextDouble();
-        System.out.println("To:");
+        System.out.print("To:");
         System.out.println("Enter your location's longitude!");
         double userLon = scanner.nextDouble();
 
