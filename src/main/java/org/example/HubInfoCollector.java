@@ -25,7 +25,7 @@ public class HubInfoCollector {
                 .query(String.format("lat:[%s TO %s] AND lon:[%s TO %s]", fromLat, toLat, fromLon, toLon))
                 .sort(Arrays.asList(String.format("<distance,lon,lat,%s,%s,km>", userLat, userLon)))
                 .build();
-        SearchResult result = service.postSearch(searchOptions).execute().getResult();
-        return result;
+
+        return service.postSearch(searchOptions).execute().getResult();
     }
 }
