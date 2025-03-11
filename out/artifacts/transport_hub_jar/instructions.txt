@@ -1,2 +1,0 @@
-To run the code, open IntelliJ, set the necessarry environment variables and run TransportApp.
-Or in the CMD navigate where transport-hub.jar is located. Set the environment variables there, then run.
