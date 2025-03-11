@@ -39,6 +39,7 @@ private static double getValidLongitude(Scanner scanner, String prompt)
 Validates user inpot for longitude (longitude can only be between -180 and 180).
 
 Usage
+
 Open a command terminal and navigate to the folder where transport-hub.jar is located. Set the necessary environment variables (AUTH_TYPE = NOAUTH and CLOUDANT_URL=https://mikerhodes.cloudant.com/), then run the JAR.
 Follow the prompts and enter your desired latitude and longitude ranges.
 
